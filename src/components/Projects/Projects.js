@@ -35,8 +35,8 @@ function Projects() {
               isBlog={false}
               title="Muaaz Portfolio"
               description="Portfolio Website (React.js, Bootstrap, GitHub Pages): Developed a personal portfolio website using React.js to showcase projects and skills. Implemented responsive design with Bootstrap for optimal viewing across devices. Utilized React Router for seamless navigation between sections. Deployed the site on GitHub Pages for easy access and sharing."
-              ghLink="https://github.com/MuhammadMuaaz007/Edusity"
-              demoLink="https://edusity-muaaz.vercel.app/"
+              ghLink="https://github.com/MuhammadMuaaz007/Portfolio"
+              demoLink="https://portfolio-xi-sand-79.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -54,8 +54,8 @@ function Projects() {
               imgPath={BookStore}
               isBlog={false}
               title="Bookstore"
-              description="Our bookstore web app, build by React.js for the frontend and Express.js & Node.js for the backend, offers a comprehensive and user-friendly platform. Users can browse a diverse selection of books, securely log in, and manage their accounts with data stored on MongoDB Compass. Enjoy a seamless and responsive experience across all devices."
-              ghLink="https://github.com/MuhammadUmar7195/BookStore-Web-Page"
+              description="Our bookstore web app, build by React.js for the frontend and Express.js & Node.js for the backend, offers a comprehensive and user-friendly platform. Users can browse a diverse selection of books, securely log in, and manage their accounts with data stored on MongoDB Compass. Enjoy a seamless and responsive experience across all devices.Coming soon!"
+              ghLink=""
               demoLink="#"
             />
           </Col>
