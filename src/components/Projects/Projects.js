@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import BookStore from "../../Assets/Projects/Bookstore.png";
+import Myntra from "../../Assets/Projects/Myntra.png";
 import Portfolio from "../../Assets/Projects/portfolio.png";
 import Shop from "../../Assets/Projects/real_estate.png";
 import image from "../../Assets/Projects/image.png";
@@ -51,12 +52,14 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={BookStore}
+              imgPath={Myntra}
               isBlog={false}
-              title="Bookstore"
-              description="Our bookstore web app, build by React.js for the frontend and Express.js & Node.js for the backend, offers a comprehensive and user-friendly platform. Users can browse a diverse selection of books, securely log in, and manage their accounts with data stored on MongoDB Compass. Enjoy a seamless and responsive experience across all devices.Coming soon!"
-              ghLink=""
-              demoLink="#"
+              title="Myntra Shopping Website Clone"
+              description="
+              Myntra Shopping Website Clone (React.js, JavaScript, CSS): Developed a front-end clone of the Myntra shopping website, replicating its user interface and functionality. Implemented responsive design to ensure compatibility across devices. Utilized JavaScript for dynamic content rendering and interactive features, providing users with a seamless shopping experience.
+              "
+              ghLink="https://github.com/MuhammadMuaaz007/MyntraBasicClone"
+              demoLink="https://myntra-muaaz.vercel.app/"
             />
           </Col>
         </Row>
