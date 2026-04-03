@@ -7,19 +7,17 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiDocker
 } from "react-icons/di";
 import {
   SiExpress,
   SiNextdotjs,
-  SiPostman,
   SiTailwindcss,
   SiBootstrap,
   SiDocker,
   SiRedux,
   SiBulma,
   SiHtml5,
-  SiCss3
+  SiCss3,
 } from "react-icons/si";
 
 function Techstack() {
@@ -38,13 +36,13 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss /> 
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap /> 
+        <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBulma /> 
+        <SiBulma />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
@@ -62,7 +60,7 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5  />
+        <SiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCss3 />
