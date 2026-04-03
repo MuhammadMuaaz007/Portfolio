@@ -25,7 +25,9 @@ function Projects() {
               imgPath={image}
               isBlog={false}
               title="Edusity – Education Platform"
-              description="Edusity – Education Platform (React.js, CSS, Vercel):Designed and developed a complete front-end for an educational website using React’s component-based structure. Created reusable components,responsive layouts, conditional rendering, and smooth UI interactions. Integrated modern design principles with clean code organization for scalability and maintenance. Optimized the UI with fast-loading assets and deployed the project on Vercel for reliable production hosting and global performance"
+              description="Edusity – Education Platform (React.js, CSS, Vercel):
+              Designed and developed a fully responsive and modern front-end for an educational platform using React.js, focusing on a scalable and maintainable component-based architecture. Built reusable and modular UI components to ensure consistency across the application and improve development efficiency. Implemented dynamic rendering techniques, including conditional rendering and state management, to enhance user interaction and provide a seamless browsing experience.Developed clean, well-structured layouts using advanced CSS techniques, ensuring responsiveness across multiple devices and screen sizes. Emphasized user experience by incorporating smooth transitions, intuitive navigation, and visually appealing design elements aligned with modern UI/UX standards.
+"
               ghLink="https://github.com/MuhammadMuaaz007/Edusity"
               demoLink="https://edusity-muaaz.vercel.app/"
             />
@@ -35,7 +37,7 @@ function Projects() {
               imgPath={Portfolio}
               isBlog={false}
               title="Muaaz Portfolio"
-              description="Portfolio Website (React.js, Bootstrap, GitHub Pages): Developed a personal portfolio website using React.js to showcase projects and skills. Implemented responsive design with Bootstrap for optimal viewing across devices. Utilized React Router for seamless navigation between sections. Deployed the site on GitHub Pages for easy access and sharing."
+              description="Designed and developed a dynamic personal portfolio website using React.js to effectively showcase projects, technical skills, and professional experience. Leveraged React’s component-based architecture to create reusable and maintainable UI components, ensuring scalability and clean code organization throughout the application.Implemented responsive and mobile-first design principles using Bootstrap, enabling a consistent and optimized user experience across desktops, tablets, and mobile devices. Structured the layout with modern UI practices, focusing on readability, accessibility, and visual hierarchy to present information clearly and professionally."
               ghLink="https://github.com/MuhammadMuaaz007/Portfolio"
               demoLink="https://portfolio-xi-sand-79.vercel.app/"
             />
@@ -45,7 +47,9 @@ function Projects() {
               imgPath={Shop}
               isBlog={false}
               title="Real estate App"
-              description="This full-stack web application streamlines property management by enabling users to easily list houses for rent or sale, offering a seamless and accessible platform for both property owners and prospective buyers or tenants. With intuitive features designed to simplify the listing process, users can efficiently manage their properties, upload details, and connect with interested parties."
+              description="Property Management Web Application (MERN Stack):
+              Developed a full-stack property management web application using the MERN stack (MongoDB, Express.js, React.js, Node.js) to streamline the process of listing, managing, and discovering properties for rent or sale. The platform provides an intuitive and user-friendly interface, enabling property owners to easily create and manage listings while allowing buyers and tenants to explore available options efficiently.
+              Built a dynamic front-end using React.js with reusable components and responsive design principles to ensure a seamless user experience across all devices. Integrated the front-end with a Node.js and Express.js back-end to handle application logic, API development, and secure data transactions."
               ghLink="https://github.com/MuhammadMuaaz007/mern-estate"
               demoLink="https://home-hub-seven.vercel.app/"
             />
@@ -56,8 +60,8 @@ function Projects() {
               isBlog={false}
               title="Myntra Shopping Website Clone"
               description="
-              Myntra Shopping Website Clone (React.js, JavaScript, CSS): Developed a front-end clone of the Myntra shopping website, replicating its user interface and functionality. Implemented responsive design to ensure compatibility across devices. Utilized JavaScript for dynamic content rendering and interactive features, providing users with a seamless shopping experience.
-              "
+             Myntra Shopping Website Clone (React.js, JavaScript, CSS):
+              Developed a front-end clone of a popular e-commerce platform inspired by Myntra, focusing on replicating its modern user interface and core shopping experience. Built the application using React.js with a component-based architecture, ensuring reusable, modular, and maintainable code structure.Designed and implemented responsive layouts using CSS to provide a consistent and optimized user experience across desktops, tablets, and mobile devices. Paid close attention to UI/UX details, including product grids, navigation menus, and visually appealing layouts to closely match real-world e-commerce standards.  "
               ghLink="https://github.com/MuhammadMuaaz007/MyntraBasicClone"
               demoLink="https://myntra-muaaz.vercel.app/"
             />
@@ -68,8 +72,8 @@ function Projects() {
               isBlog={false}
               title="PrintForge"
               description="
-              PrintForge is a modern and responsive web application built using Next.js, TypeScript, and Tailwind CSS. The project focuses on delivering a clean UI and seamless user experience through efficient component-based architecture and optimized frontend performance.The application leverages static data rendering to ensure fast load times and smooth navigation, while maintaining scalability and maintainability through strong typing with TypeScript. Tailwind CSS is used to create a consistent, responsive, and visually appealing design across different screen sizes.
-              "
+            PrintForge – 3D Models Web Application (Next.js, TypeScript, Tailwind CSS):
+            Developed a modern and fully responsive web application using Next.js, TypeScript, and Tailwind CSS, focused on delivering a clean, high-performance user interface for browsing and exploring 3D models. Leveraged Next.js features such as optimized rendering and efficient routing to ensure fast load times and smooth navigation across the application.Structured the project using a scalable, component-based architecture, creating reusable and maintainable UI components to promote consistency and development efficiency. Utilized TypeScript to enforce strong typing, improving code reliability, reducing runtime errors, and enhancing overall developer experience. "
               ghLink="https://github.com/MuhammadMuaaz007/PrintForge"
               demoLink="https://print-forge-web.vercel.app/"
             />
