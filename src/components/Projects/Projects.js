@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import BookStore from "../../Assets/Projects/Bookstore.png";
 import Myntra from "../../Assets/Projects/Myntra.png";
+import PrintForge from "../../Assets/Projects/PrintForge.png";
 import Portfolio from "../../Assets/Projects/portfolio.png";
 import Shop from "../../Assets/Projects/real_estate.png";
 import image from "../../Assets/Projects/image.png";
@@ -30,7 +30,7 @@ function Projects() {
               demoLink="https://edusity-muaaz.vercel.app/"
             />
           </Col>
-           <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Portfolio}
               isBlog={false}
@@ -60,6 +60,18 @@ function Projects() {
               "
               ghLink="https://github.com/MuhammadMuaaz007/MyntraBasicClone"
               demoLink="https://myntra-muaaz.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PrintForge}
+              isBlog={false}
+              title="PrintForge"
+              description="
+              PrintForge is a modern and responsive web application built using Next.js, TypeScript, and Tailwind CSS. The project focuses on delivering a clean UI and seamless user experience through efficient component-based architecture and optimized frontend performance.The application leverages static data rendering to ensure fast load times and smooth navigation, while maintaining scalability and maintainability through strong typing with TypeScript. Tailwind CSS is used to create a consistent, responsive, and visually appealing design across different screen sizes.
+              "
+              ghLink="https://github.com/MuhammadMuaaz007/PrintForge"
+              demoLink="https://print-forge-web.vercel.app/"
             />
           </Col>
         </Row>
