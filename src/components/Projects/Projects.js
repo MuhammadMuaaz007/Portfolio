@@ -25,7 +25,7 @@ function Projects() {
               imgPath={image}
               isBlog={false}
               title="Edusity – Education Platform"
-              description="Built a responsive education platform UI using React and CSS, with reusable components, clean layout structure, and smooth navigation to deliver a modern and consistent learning experience across devices."
+              description="Built a responsive education platform UI with React and CSS, using reusable components, clean layouts, and smooth navigation to deliver a learning experience across all devices."
               ghLink="https://github.com/MuhammadMuaaz007/Edusity"
               demoLink="https://edusity-muaaz.vercel.app/"
             />
@@ -35,7 +35,7 @@ function Projects() {
               imgPath={Portfolio}
               isBlog={false}
               title="Muaaz Portfolio"
-              description="Created a personal portfolio with React and Bootstrap, highlighting projects, skills, and experience through reusable components, responsive design, and a clear visual structure for desktop and mobile users."
+              description="Created a personal portfolio with React and Bootstrap, showcasing projects, skills, and experience through reusable components, responsive design, and clear structure for desktop and mobile users."
               ghLink="https://github.com/MuhammadMuaaz007/Portfolio"
               demoLink="https://portfolio-xi-sand-79.vercel.app/"
             />
@@ -45,7 +45,7 @@ function Projects() {
               imgPath={Shop}
               isBlog={false}
               title="Real estate App"
-              description="Developed a MERN-based real estate app for listing and discovering properties, combining a responsive React frontend with secure backend APIs to provide a smooth and reliable user experience."
+              description="Developed a MERN real estate app for listing and discovering properties, combining a responsive React frontend with secure backend APIs to provide a smooth user experience."
               ghLink="https://github.com/MuhammadMuaaz007/mern-estate"
               demoLink="https://home-hub-seven.vercel.app/"
             />
@@ -55,7 +55,7 @@ function Projects() {
               imgPath={Myntra}
               isBlog={false}
               title="Myntra Shopping Website Clone"
-              description="Built a frontend e-commerce clone inspired by Myntra using React and CSS, recreating product browsing layouts, responsive navigation, and polished UI details to mirror a practical shopping experience."
+              description="Built a frontend e-commerce clone inspired by Myntra using React and CSS, recreating product browsing layouts, responsive navigation, and polished UI details for practical shopping flows."
               ghLink="https://github.com/MuhammadMuaaz007/MyntraBasicClone"
               demoLink="https://myntra-muaaz.vercel.app/"
             />
@@ -65,7 +65,7 @@ function Projects() {
               imgPath={PrintForge}
               isBlog={false}
               title="PrintForge"
-              description="Built a modern 3D models web app with Next.js, TypeScript, and Tailwind, using reusable components and optimized routing to deliver fast performance and a consistent browsing experience."
+              description="Built a 3D models web app with Next.js, TypeScript, and Tailwind, using reusable components and optimized routing to deliver fast performance and consistent browsing experience overall."
               ghLink="https://github.com/MuhammadMuaaz007/PrintForge"
               demoLink="https://print-forge-web.vercel.app/"
             />
