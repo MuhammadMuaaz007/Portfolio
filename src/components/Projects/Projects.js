@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Myntra from "../../Assets/Projects/Myntra.png";
 import PrintForge from "../../Assets/Projects/PrintForge.png";
-import Portfolio from "../../Assets/Projects/portfolio.png";
 import Shop from "../../Assets/Projects/real_estate.png";
 import image from "../../Assets/Projects/image.png";
 import muaaz_mart from "../../Assets/Projects/Muaaz_mart.png";
