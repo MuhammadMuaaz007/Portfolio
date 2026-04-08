@@ -7,6 +7,7 @@ import PrintForge from "../../Assets/Projects/PrintForge.png";
 import Portfolio from "../../Assets/Projects/portfolio.png";
 import Shop from "../../Assets/Projects/real_estate.png";
 import image from "../../Assets/Projects/image.png";
+import muaaz_mart from "../../Assets/Projects/Muaaz_mart.png";
 
 function Projects() {
   return (
@@ -22,22 +23,22 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={muaaz_mart}
+              isBlog={false}
+              title="Muaaz’s Mart – Real-Time MERN E-Commerce Platform"
+              description="Built a full-stack e-commerce platform using React, Node.js, Express, and MongoDB, featuring real-time chat with Socket.io, secure authentication, and a responsive UI for seamless shopping across devices."
+              ghLink="https://github.com/MuhammadMuaaz007/E-Shop"
+              demoLink="https://e-shop-frontend1.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={image}
               isBlog={false}
               title="Edusity – Education Platform"
               description="Built a responsive education platform UI with React and CSS, using reusable components, clean layouts, and smooth navigation to deliver a learning experience across all devices."
               ghLink="https://github.com/MuhammadMuaaz007/Edusity"
               demoLink="https://edusity-muaaz.vercel.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Portfolio}
-              isBlog={false}
-              title="Muaaz Portfolio"
-              description="Created a personal portfolio with React and Bootstrap, showcasing projects, skills, and experience through reusable components, responsive design, and clear structure for desktop and mobile users."
-              ghLink="https://github.com/MuhammadMuaaz007/Portfolio"
-              demoLink="https://portfolio-xi-sand-79.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
