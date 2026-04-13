@@ -7,7 +7,7 @@ import PrintForge from "../../Assets/Projects/PrintForge.png";
 import Shop from "../../Assets/Projects/real_estate.png";
 import image from "../../Assets/Projects/image.png";
 import muaaz_mart from "../../Assets/Projects/Muaaz_mart.png";
-import Pizza from "../../Assets/Projects/pizza.png";
+import Pizza from "../../Assets/Projects/Pizza.png";
 
 function Projects() {
   return (
@@ -71,7 +71,7 @@ function Projects() {
               demoLink="https://print-forge-web.vercel.app/"
             />
           </Col>
-            <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Pizza}
               isBlog={false}
@@ -81,7 +81,6 @@ function Projects() {
               demoLink="https://next-pizza-shop-seven.vercel.app/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
