@@ -71,16 +71,6 @@ function Projects() {
               demoLink="https://print-forge-web.vercel.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Pizza}
-              isBlog={false}
-              title="Next Pizza Shop"
-              description="Built a modern pizza ordering web app with Next.js, featuring product browsing, cart and checkout flows, and a clean responsive UI for smooth ordering across desktop and mobile devices."
-              ghLink="https://github.com/MuhammadMuaaz007/next-pizza-shop"
-              demoLink="https://next-pizza-shop-seven.vercel.app/"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
