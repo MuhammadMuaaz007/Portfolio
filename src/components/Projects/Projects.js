@@ -7,6 +7,7 @@ import PrintForge from "../../Assets/Projects/PrintForge.png";
 import Shop from "../../Assets/Projects/real_estate.png";
 import image from "../../Assets/Projects/image.png";
 import muaaz_mart from "../../Assets/Projects/Muaaz_mart.png";
+import Pizza from "../../Assets/Projects/pizza.png";
 
 function Projects() {
   return (
@@ -68,6 +69,16 @@ function Projects() {
               description="Built a 3D models web app with Next.js, TypeScript, and Tailwind, using reusable components and optimized routing to deliver fast performance and consistent browsing experience overall."
               ghLink="https://github.com/MuhammadMuaaz007/PrintForge"
               demoLink="https://print-forge-web.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Pizza}
+              isBlog={false}
+              title="Next Pizza Shop"
+              description="Built a modern pizza ordering web app with Next.js, featuring product browsing, cart and checkout flows, and a clean responsive UI for smooth ordering across desktop and mobile devices."
+              ghLink="https://github.com/MuhammadMuaaz007/next-pizza-shop"
+              demoLink="https://next-pizza-shop-seven.vercel.app/"
             />
           </Col>
         </Row>
