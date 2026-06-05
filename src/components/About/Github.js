@@ -85,12 +85,12 @@ function Github() {
   const max = allCounts.length ? Math.max(...allCounts) : 0;
 
   const getColor = (count) => {
-    if (count <= 0) return "#c7c3da";
-    if (max === 0) return "#7c3aed";
+    if (count <= 0) return "#2b2640";
+    if (max === 0) return "#8b5cf6";
     const ratio = count / max;
-    if (ratio < 0.2) return "#d8b4fe";
-    if (ratio < 0.4) return "#c084f5";
-    if (ratio < 0.6) return "#a855c5";
+    if (ratio < 0.2) return "#c4b5fd";
+    if (ratio < 0.4) return "#a78bfa";
+    if (ratio < 0.6) return "#8b5cf6";
     if (ratio < 0.8) return "#7c3aed";
     return "#5b21b6";
   };
@@ -137,8 +137,8 @@ function Github() {
                         key={day.date}
                         title={`${day.date}: ${day.contributionCount} contributions`}
                         style={{
-                          width: 22,
-                          height: 22,
+                          width: 13,
+                          height: 13,
                           background: getColor(day.contributionCount),
                           borderRadius: 4,
                         }}
