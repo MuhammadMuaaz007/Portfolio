@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.custom-pagination .page-link {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: 1px solid #623686 !important; /* Theme purple matching your strong tags */
+}
+
+.custom-pagination .page-item.active .page-link {
+  background-color: #623686 !important;
+  border-color: #623686 !important;
+  color: white !important;
+}
+
+.custom-pagination .page-item.disabled .page-link {
+  color: #6c757d !important;
+  opacity: 0.5;
+}
